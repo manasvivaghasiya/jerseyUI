@@ -1,0 +1,117 @@
+.title-card{
+background: #F2F2F2;
+background: #F2F2F2;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+.card{
+    margin-left: 15px;
+}
+
+h2{
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+letter-spacing: 0.15px;
+color: #000000;
+}
+
+img{
+/* position: absolute; */
+left: 4.44%;
+right: 73.33%;
+top: 0%;
+bottom: 2.66%;
+height: 63px;
+}
+
+.card-text{
+height: 44px;
+left: 30.56%;
+right: 5.56%;
+top: calc(50% - 44px/2 - 14.5px);
+}
+.boreder{
+/* position: absolute; */
+/* left: 0px;
+right: 0%;
+top: 67.56%;
+bottom: 31.68%;
+margin: 3px; */
+border: 1px solid #F2F2F2;
+}
+.price{
+    font-weight: 400;
+font-size: 10px;
+line-height: 19px;
+text-align: right;
+letter-spacing: 0.08px;
+
+color: #B02B2B;
+
+/* position: absolute; */
+height: 19px;
+left: 87.22%;
+right: 5.56%;
+top: calc(50% - 19px/2 + 36px);
+}
+
+.Tshirt{
+    font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.08px;
+
+color: #868686;
+
+/* position: absolute; */
+height: 6px;
+left: 30.56%;
+right: 65.56%;
+top: calc(50% - 19px/2 + 36px);
+}
+
+.total{
+    font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+letter-spacing: 0.105px;
+
+color: #000000;
+/* position: absolute; */
+height: 25px;
+left: 6.52%;
+right: 82.37%;
+top: calc(50% - 25px/2 - 25px);
+}
+
+.total-price{
+    font-weight: 600;
+font-size: 12px;
+line-height: 25px;
+text-align: right;
+letter-spacing: 0.105px;
+position: absolute;
+color: #000000;
+/* position: absolute; */
+height: 25px;
+left: 81.88%;
+right: 7.73%;
+top: calc(50% - 25px/2 - 25px);
+}
+
+.checkout{
+    /* position: absolute; */
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+color: white !important;
+padding: 6px 89px;
+background: #000000;
+
+}
+
