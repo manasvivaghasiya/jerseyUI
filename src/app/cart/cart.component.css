@@ -37,7 +37,7 @@ top: calc(50% - 44px/2 - 14.5px);
 .boreder{
 /* position: absolute; */
 /* left: 0px;
-right: 0%;
+right: 10%;
 top: 67.56%;
 bottom: 31.68%;
 margin: 3px; */
@@ -94,9 +94,7 @@ font-size: 12px;
 line-height: 25px;
 text-align: right;
 letter-spacing: 0.105px;
-position: absolute;
 color: #000000;
-/* position: absolute; */
 height: 25px;
 left: 81.88%;
 right: 7.73%;
