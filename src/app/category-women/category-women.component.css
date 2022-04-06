@@ -20,6 +20,7 @@
         top: calc(50% - 19px/2 + 36px);
         }
         .des{
-            font-size: 10px;
+            font-size: 14px;
+            font-weight: 400;
         }
     

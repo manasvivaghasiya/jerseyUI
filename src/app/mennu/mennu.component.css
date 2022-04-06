@@ -1,0 +1,35 @@
+.title-card{
+    background: white;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+}
+.icon{
+    border:1px solid black;
+    box-sizing: border-box;
+}
+.font{
+    font-weight: 400;
+}
+.row{
+    margin-bottom: 30px;
+}
+.info{
+    position: absolute;
+    background: white;
+    left: 0px;
+    top: 0px;
+    width:70%;
+    /* height: 156vh; */
+}
+.img{
+    position: relative;
+}
+.log-out{
+    color: #868686;
+    line-height: 312px;
+/* height: 22px;
+left: 8.44%;
+right: 72.19%;
+letter-spacing: 0.09px; */
+}
