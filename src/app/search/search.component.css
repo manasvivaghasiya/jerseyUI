@@ -4,3 +4,14 @@
     justify-content: center;
     display: flex;
     }
+    .s-icon{
+        background-color:#f1f1f1 ;
+    }
+
+     .fa-search{
+        position: absolute;
+        z-index: 10;
+        right: 83%;
+        top: 8px;
+        color: grey;
+    }

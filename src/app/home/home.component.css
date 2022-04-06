@@ -32,3 +32,11 @@ top: calc(50% - 19px/2 + 36px);
 .des{
     font-size: 10px;
 }
+.small{
+    /* border: 1px solid black; */
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    top: 116px;
+    right: 91px;
+}

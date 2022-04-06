@@ -77,12 +77,22 @@ top: 45px;
     top: calc(50% - 25px/2 - 25px);
     }
 .product-details{
-    position: relative;
+    position: absolute;
  left: 0%;
 right: 0%;
-top: 8.96%;
-bottom: 0%;
-
+top: 81.96%;
+    bottom: -32%;
+/* background-color: ; */
 /* background: rgba(255, 255, 255, 0.7); */
-backdrop-filter: blur(81.5485px);
+backdrop-filter: blur(83.5485px);
+
+
+    }
+
+    .h-click{
+        border:1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        color: #B02B2B;
+        padding: 15px;
     }

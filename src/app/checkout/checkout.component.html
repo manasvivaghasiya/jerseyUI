@@ -1,9 +1,15 @@
 <div class="title-card">
     <div>
-       
-        <div class="d-flex justify-content-end" style="font-weight: 200px; font-size: large;">
-         <i class="fa-solid fa-xmark">...</i>
+        <div class="row">
+            <div class="col-10">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </div>
+            <div class="col-2" style="font-weight: 200px; font-size: large;">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
         </div>
+
+
         <div class="d-flex justify-content-start">
             <h2 class="m-3">Check Out</h2>
         </div>
@@ -13,30 +19,30 @@
 
         <div class="card m-2" style="width: 18rem;">
             <div class="form-check row">
-                <label class="form-check-label col-10" for="flexCheckDefault">
-                        Cash on Delivery
+                <label class="form-check-label col-10" for="flexRadioDefault1">
+                    Cash on delivery
                 </label>
-              <input class="form-check-input col-2"  type="checkbox" value="" id="flexCheckDefault">
+                <input class="form-check-input col-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
             </div>
         </div>
 
         <div class="card m-2" style="width: 18rem;">
             <div class="form-check row">
-                 <label class="form-check-label col-10" for="flexCheckDefault">
-                            Apple Pay
+                <label class="form-check-label col-10" for="flexRadioDefault1">
+                    Apple Pay
                 </label>
-                <input class="form-check-input col-2" type="checkbox" value="" id="flexCheckDefault">
-                       
+                <input class="form-check-input col-2"  type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+
             </div>
         </div>
 
         <div class="card m-2" style="width: 18rem;">
-            <div class="form-check row">
-                 <label class="form-check-label col-10" for="flexCheckDefault">
-                           Debit/Credit Card
+            <div class="form-check row ">
+                <label class="form-check-label col-10" for="flexRadioDefault3">
+                  Debit/Credit card
                 </label>
-                <input class="form-check-input col-2" type="checkbox" value="" id="flexCheckDefault">
-                       
+                <input class="form-check-input col-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+
             </div>
         </div>
         <div>
@@ -45,10 +51,10 @@
 
         <div class="card m-2" style="width: 18rem;">
             <!-- <div class="form-check row"> -->
-                <select class="form-select form-select-lg" aria-label=".form-select-lg example">
-                    <option >Primary Address</option>
-                   
-                  </select>
+            <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+                <option>Primary Address</option>
+
+            </select>
             <!-- </div> -->
         </div>
 
@@ -56,41 +62,43 @@
             <h4>Coupon</h4>
         </div>
         <div class="card m-2" style="width: 18rem;">
-        <div class="input-group mb-3">
-            
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-            <div class="input-group-prepend">
-                <span class="input-group-text" style="background-color: black; color: aliceblue;" id="basic-addon1">@</span>
-              </div>
-          </div>
+            <div class="input-group ">
+
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="background-color: black; color: aliceblue;"
+                        id="basic-addon1">@</span>
+                </div>
+            </div>
         </div>
-  
+
 
         <div class="card m-3" style="width: 18rem;">
             <div class="card-body">
                 <div class=" row">
                     <div class="col-9">
                         <p class="">Delivery Free</p>
-    
+
                     </div>
                     <div class="col-3">
                         <p class="">$45</p>
-    
+
                     </div>
                 </div>
-            <div class=" row">
-                <div class="col-4">
-                    <p class="total">Total</p>
+                <div class=" row">
+                    <div class="col-4">
+                        <p class="total">Total</p>
 
-                </div>
-                <div class="col-7">
-                    <p class="total-price">$150</p>
+                    </div>
+                    <div class="col-7">
+                        <p class="total-price">$150</p>
 
+                    </div>
                 </div>
+                <a class=" checkout ">checkout</a>
             </div>
-              <a  class=" checkout ">checkout</a>
-            </div>
-          </div>
+        </div>
 
     </div>
 </div>
