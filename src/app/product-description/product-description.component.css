@@ -5,11 +5,11 @@
     justify-content: center;
     display: flex;
     }
-    img{
+.img1{
  /* width: 532px; */
-height: 638px;
-left: -59px;
-top: 45px;
+    height: 638px;
+    left: -59px;
+    top: 45px;
 
     }
 .XS{
@@ -18,23 +18,24 @@ top: 45px;
     top: 0%;
     bottom: 0%;
     color: black !important;
-    padding: 6px 24px;
+    padding: 19px 36px;
     /* background: white; */
     border: 1px solid rgb(187, 181, 181);
     
 }
-    .checkout{
+.checkout{
         /* position: absolute; */
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     color: white !important;
-    padding: 6px 30px;
+    padding: 19px 36px;
+    margin-left: 5px;
     background: #000000;
     
     }
-    .price{
+.price{
         font-weight: 400;
         font-size: 20px;
         line-height: 19px;

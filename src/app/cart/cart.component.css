@@ -33,6 +33,7 @@ height: 44px;
 left: 30.56%;
 right: 5.56%;
 top: calc(50% - 44px/2 - 14.5px);
+text-align: left;
 }
 .border{
 /* position: absolute; */
